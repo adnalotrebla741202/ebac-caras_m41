@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Suscríbete a CARAS México y disfruta de contenido exclusivo, promociones y más."/>
+  <meta name="keywords" content="revista caras, suscripción revista, entretenimiento, moda, belleza, personalidades, cultura"/>
+  <meta name="robots" content="index, follow"/>
+  <!-- Open Graph -->
+  <meta property="og:title" content="Suscríbete a CARAS - Noticias, entretenimiento y más" />
+  <meta property="og:description" content="Accede a contenido exclusivo sobre entretenimiento, moda, arte y más." />
+  <meta property="og:image" content="https://ebac-carasseo.netlify.app/assets/img/logo-blanco-rojo_tinified.png" />
+  <meta property="og:url" content="https://ebac-carasseo.netlify.app/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CARAS México" />
+  <meta property="og:locale" content="es_MX" />
+
+  <title>Suscripción a CARAS - Beneficios Exclusivos y Contenido Premium</title>
+  <link rel="icon" href="assets/img/logo-blanco-rojo_tinified.png" type="image/png"/>
+
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="css/styles.min.css">
+  <!-- JS externo -->
+  <script src="js/script.min.js" defer></script>
+</head>
+<body>
+  <header>
+    <picture>
+      <source srcset="assets/img/logo-blanco-rojo_tinified.webp" type="image/webp">
+      <source srcset="assets/img/logo-blanco-rojo_tinified.png" type="image/png">
+      <img src="assets/img/logo-blanco-rojo_tinified.png" alt="Logo de la revista CARAS México" />
+    </picture>
+    <nav>
+      <a href="https://www.caras.com.mx/entretenimiento/" aria-label="Entretenimiento">Entretenimiento</a>
+      <a href="https://www.caras.com.mx/realeza/" aria-label="Realeza">Realeza</a>
+      <a href="https://www.caras.com.mx/moda/" aria-label="Moda">Moda</a>
+      <a href="https://www.caras.com.mx/lifestyle/" aria-label="Lifestyle">Lifestyle</a>
+      <a href="https://www.caras.com.mx/personalidades/" aria-label="Personalidades">Personalidades</a>
+      <a href="https://www.caras.com.mx/arte-cultura/" aria-label="Arte y Cultura">Arte y Cultura</a>
+      <a href="https://www.caras.com.mx/deportes/" aria-label="Deportes">Sports</a>
+      <a href="https://www.caras.com.mx/revista" aria-label="Revista">Revista</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Suscríbete a CARAS México y disfruta de contenido exclusivo</h1>
+      <p>Recibe las últimas noticias de entretenimiento, moda, belleza, cultura y más, directamente en tu correo o en tu dispositivo.</p>
+    </section>
+
+    <section class="benefits" aria-labelledby="benefits-heading">
+      <h2 id="benefits-heading">Beneficios exclusivos para suscriptores</h2>
+      <p>Acceso completo a contenido digital exclusivo, promociones especiales y mucho más.</p>
+    </section>
+
+    <section class="subscription" aria-labelledby="subscription-form-heading">
+      <form id="subscriptionForm" novalidate>
+        <h2 id="subscription-form-heading">Suscríbete a nuestra revista</h2>
+        <p>Recibe contenido exclusivo, acceso a eventos, y mucho más con tu suscripción.</p>
+        <label for="name">Nombre completo</label>
+        <input type="text" id="name" name="name" placeholder="Nombre completo" aria-required="true" />
+        <p id="nameError" class="error-message" aria-live="polite"></p>
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" placeholder="Correo electrónico" aria-required="true" />
+        <p id="emailError" class="error-message" aria-live="polite"></p>
+
+        <button type="submit">¡Quiero suscribirme ahora!</button>
+        <p id="successMessage" class="success-message" aria-live="assertive"></p>
+      </form>
+    </section>
+
+    <section class="testimonials" aria-labelledby="testimonials-heading">
+      <h2 id="testimonials-heading">Testimonios de nuestros suscriptores</h2>
+      <article class="testimonial">
+        <picture>
+          <source srcset="assets/img/man_avatar01b_tinified.webp" type="image/webp">
+          <source srcset="assets/img/man_avatar01b_tinified.png" type="image/png">
+          <img src="assets/img/man_avatar01b_tinified.png" alt="Testimonio 1 - Usuario satisfecho" loading="lazy">
+        </picture>
+        <p>"Me encanta estar al día con las últimas noticias."</p>
+      </article>
+      <article class="testimonial">
+        <picture>
+          <source srcset="assets/img/woman_avatar01_148x148_tinified.webp" type="image/webp">
+          <source srcset="assets/img/woman_avatar01_148x148_tinified.png" type="image/png">
+          <img src="assets/img/woman_avatar01_148x148_tinified.png" alt="Testimonio 2 - Usuario contento" loading="lazy">
+        </picture>
+        <p>"El contenido exclusivo vale cada centavo."</p>
+      </article>
+      <article class="testimonial">
+        <picture>
+          <source srcset="assets/img/woman_avatar02_tinified.webp" type="image/webp">
+          <source srcset="assets/img/woman_avatar02_tinified.png" type="image/png">
+          <img src="assets/img/woman_avatar02_tinified.png" alt="Testimonio 3 - Usuario encantado con el diseño" loading="lazy">
+        </picture>
+          <p>"El diseño es genial, pero los colores son muy claros."</p>
+      </article>
+      <article class="testimonial">
+        <picture>
+          <source srcset="assets/img/man_avatar02_tinified.webp" type="image/webp">
+          <source srcset="assets/img/man_avatar02_tinified.png" type="image/png">
+          <img src="assets/img/man_avatar02_tinified.png" alt="Testimonio 4 - Usuario agradecido con la calidad" loading="lazy"/>
+      </picture>
+          <p>"Gracias por la excelente redacción y la calidad de la información."</p>
+      </article>
+      <article class="testimonial">
+        <picture>
+          <source srcset="assets/img/woman_avatar05_129x148_tinified.webp" type="image/webp">
+          <source srcset="assets/img/woman_avatar05_129x148_tinified.png" type="image/png">
+          <img src="assets/img/woman_avatar05_129x148_tinified.png" alt="Testimonio 5 - Usuario feliz con las actualizaciones" loading="lazy"/>
+        </picture>
+          <p>"Quiero seguir adelante y seguir disfrutando de las noticias de Caras."</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <hr>
+    <article class="footerSocialMedia">
+      <section>
+        <picture>
+          <source srcset="assets/img/Logo1_tinified.webp" type="image/webp">
+          <source srcset="assets/img/Logo1_tinified.png" type="image/png">
+          <img class="footer-image" src="assets/img/Logo1_tinified.png" alt="Logo de la revista CARAS México" loading="lazy"/>
+        </picture>
+      </section>
+      <section class="socialMedia">
+        <a class="footerSocialMediaBehavior" target="_blank" rel="noreferrer" href="https://x.com/carasmexico" aria-label="Síguenos en X (anteriormente Twitter)" title="Twitter">
+          <picture>
+            <source srcset="assets/img/x_tinified.webp" type="image/webp">
+            <source srcset="assets/img/x_tinified.png" type="image/png">
+            <img src="assets/img/x_tinified.png" alt="Logo de la red social X" loading="lazy"/>
+          </picture>
+        </a>
+        <a class="footerSocialMediaBehavior" target="_blank" rel="noreferrer" href="https://www.instagram.com/carasmexico/?hl=es-la" aria-label="Síguenos en Instagram" title="Instagram">
+          <picture>
+            <source srcset="assets/img/instagram_tinified.webp" type="image/webp">
+            <source srcset="assets/img/instagram_tinified.png" type="image/png">
+            <img src="assets/img/instagram_tinified.png" alt="Logo de la red social Instagram" loading="lazy"/>
+          </picture>
+        </a>
+        <a class="footerSocialMediaBehavior" target="_blank" rel="noreferrer" href="https://www.facebook.com/Revista.Caras/?locale=es_LA" aria-label="Síguenos en Facebook" title="Facebook">
+          <picture>
+            <source srcset="assets/img/facebook_tinified.webp" type="image/webp">
+            <source srcset="assets/img/facebook_tinified.png" type="image/png">
+            <img src="assets/img/facebook_tinified.png" alt="Logo de la red social Facebook" loading="lazy"/>
+          </picture>
+        </a>
+      </section>
+    </article>
+    <section class="links">
+      <article>
+        <h3 class="linksSection">Descubre más</h3>
+        <ul>
+          <li><a class="linkA" href="https://www.caras.com.mx/entretenimiento/" title="Contenido de entretenimiento">Entretenimiento</a></li>
+          <li><a class="linkA" href="https://www.caras.com.mx/belleza/" title="Contenido de belleza">Belleza</a></li>
+          <li><a class="linkA" href="https://www.caras.com.mx/moda/" title="Contenido de moda">Moda</a></li>
+          <li><a class="linkA" href="https://www.caras.com.mx/personalidades/" title="Contenido de personalidades">Personalidades</a></li>
+          <li><a class="linkA" href="https://www.caras.com.mx/arte-cultura/" title="Contenido de arte y cultura">Arte y Cultura</a></li>
+        </ul>
+      </article>
+      <article>
+        <h3 class="linksSection">Revista</h3>
+        <ul>
+          <li><a class="linkA" target="_blank" rel="noreferrer" href="https://apps.apple.com/mx/app/caras-m%C3%A9xico/id489597379" title="App de Caras en App Store">App Store</a></li>
+          <li><a class="linkA" target="_blank" rel="noreferrer" href="https://www.tususcripcion.com/product/n-caras-mexico/" title="Edición impresa de la revista">Edición Impresa</a></li>
+          <li><a class="linkA" target="_blank" rel="noreferrer" href="https://www.magzter.com/es/MX/Editorial-Televisa/Caras-M%C3%A9xico/Celebrity/" title="Caras en Magzter">Magzter</a></li>
+          <li><a class="linkA" target="_blank" rel="noreferrer" href="https://editorialtelevisa.pressreader.com/caras-mexico" title="Caras en PressReader">Pressreader</a></li>
+          <li><a class="linkA" target="_blank" rel="noreferrer" href="https://www.caras.com.mx/revista" title="Caras en revista digital">Revista Digital</a></li>
+        </ul>
+      </article>
+    </section>
+</body>
+</html>

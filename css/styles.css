@@ -1,0 +1,485 @@
+@font-face 
+{
+  font-family: "Barlow-bold";
+  src: url(../assets/fonts/Barlow-bold.ttf);
+  font-weight: bold;
+}
+
+@font-face 
+{
+  font-family: "Barlow-light";
+  src: url(../assets/fonts/Barlow-light.ttf);
+  font-weight: lighter;
+}
+
+@font-face 
+{
+  font-family: "Playfair-display-Regular";
+  src: url(../assets/fonts/Playfair-display-Regular.ttf);
+  font-weight: normal;
+}
+
+*, *::before, *::after 
+{
+  box-sizing: border-box;
+}
+
+body 
+{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header 
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #ef4138;
+}
+
+header img 
+{
+  width: 150px;
+  height: auto;
+}
+
+header nav 
+{
+  display: flex;
+  gap: 20px;
+}
+
+header nav a 
+{
+  font-family: "Playfair-display-Regular", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  padding: 12px 8px;
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav a:hover 
+{
+  color: #FFFF00;
+  text-decoration: underline;
+}
+
+main 
+{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+img 
+{
+  max-width: 100%;
+  height: auto;
+}
+
+.hero 
+{
+  color: #000;
+  text-align: center;
+}
+
+.hero h1 
+{
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.hero p 
+{
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.benefits 
+{
+  padding: 20px;
+  background: #fff;
+}
+
+.benefits h2 
+{
+  font-family: "Barlow-bold", sans-serif;
+  font-size: 2.5rem;
+  color: #000;
+}
+
+.benefits p 
+{
+  font-family: "Barlow-light", sans-serif;
+  font-size: 1.3rem;
+  color: #4a4a4a;
+}
+
+.subscription 
+{
+  padding: 20px;
+  background: #f7f7f7;
+}
+
+.subscription h2 
+{
+  font-family: "Barlow-bold", sans-serif;
+  font-size: 2.2rem;
+  color: #000;
+}
+
+.subscription form 
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.subscription label 
+{
+  font-family: "Barlow-bold", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.subscription input 
+{
+  padding: 12px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  min-height: 48px;
+}
+
+.subscription button 
+{
+  padding: 12px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  min-height: 48px;
+}
+
+.testimonials 
+{
+  background-color: #fff;
+  padding: 20px;
+}
+
+.testimonials h2 
+{
+  font-family: "Barlow-bold", sans-serif;
+  font-size: 2.2rem;
+  color: #000;
+}
+
+.testimonial 
+{
+  display: flex;
+  align-items: center;
+  font-family: "Barlow-light", sans-serif;
+  font-size: 1rem;
+  color: #4a4a4a;
+  margin-bottom: 15px;
+}
+
+.testimonial img 
+{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.footer 
+{
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.footer-image 
+{
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+}
+
+.footer .footerSocialMedia 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .socialMedia a img 
+{
+  width: 40px;
+  height: auto;
+}
+
+.footer .links 
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.footer .links article 
+{
+  flex: 1;
+}
+
+.footer .linkA 
+{
+  font-family: "Barlow-light", sans-serif;
+  font-size: 1rem;
+  color: #4a4a4a;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 0;
+  min-height: 48px;
+  line-height: 1.5;
+}
+
+.footer .links li 
+{
+  margin-bottom: 8px;
+}
+
+.footer .linkA:hover 
+{
+  text-decoration: underline;
+}
+
+.footer .linksSection 
+{
+  font-family: "Barlow-bold", sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.footer a 
+{
+  text-decoration: none;
+}
+
+.footerSocialMediaBehavior img 
+{
+  width: 48px;
+  height: auto;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.footerSocialMediaBehavior:hover img 
+{
+  transform: scale(1.1);
+  filter: brightness(1.3);
+}
+
+.footerSocialMediaBehavior 
+{
+  padding: 8px;
+  display: inline-block;
+}
+
+/* -------- RESPONSIVE DESIGN -------- */
+
+@media (max-width: 1024px) 
+{
+  header nav 
+  {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero h1 
+  {
+    font-size: 28px;
+  }
+
+  .hero p 
+  {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .benefits h2,
+  .subscription h2,
+  .testimonials h2 
+  {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .benefits p,
+  .subscription p 
+  {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .testimonial 
+  {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .testimonial img 
+  {
+    margin-bottom: 10px;
+  }
+
+  .footer .links 
+  {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer .footerSocialMedia 
+  {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer .socialMedia 
+  {
+    justify-content: center;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 768px) 
+{
+  header 
+  {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  header nav 
+  {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .hero h1 
+  {
+    font-size: 22px;
+    padding: 0 15px;
+  }
+
+  .hero p 
+  {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  .benefits,
+  .subscription,
+  .testimonials 
+  {
+    padding: 10px;
+  }
+
+  .subscription form 
+  {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .subscription input,
+  .subscription button 
+  {
+    width: 100%;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+
+  .footer-image 
+  {
+    max-width: 80px;
+  }
+
+  .footer .linksSection 
+  {
+    font-size: 1.1rem;
+  }
+
+  .linkA 
+  {
+    font-size: 0.95rem;
+  }
+
+  .footerSocialMediaBehavior img 
+  {
+    width: 30px;
+    height: auto;
+  }
+
+  .footer .socialMedia 
+  {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) 
+{
+  .hero h1 
+  {
+    font-size: 20px;
+  }
+
+  .subscription h2 
+  {
+    font-size: 1.5rem;
+  }
+
+  .benefits h2,
+  .testimonials h2 
+  {
+    font-size: 1.6rem;
+  }
+
+  .footer .links 
+  {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer .links article 
+  {
+    width: 100%;
+  }
+
+  .footer .socialMedia 
+  {
+    justify-content: center;
+    gap: 10px;
+  }
+}
